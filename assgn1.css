@@ -1,0 +1,24 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table{
+    width: 100%;
+    border-collapse: separate;
+    margin: 20px 0;
+}
+th, td{
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px salmon #790c0c;
+}
+tr:hover {
+    background-color: #993e3e;
+}
+
+a{
+    color: rgb(131, 11, 57);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
