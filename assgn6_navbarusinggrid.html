@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>assignment6</title> 
+    <style> 
+        .navbar-grid{ 
+            text-align: center; 
+            margin-bottom: 20px; 
+        } 
+        .navbar-items{ 
+            display: grid; 
+            grid-template-rows: 1fr 1fr 1fr; 
+            background-color: teal; 
+            color: white; 
+            text-decoration: underline; 
+        } 
+        .navbar-items:hover{ 
+            background-color: grey; 
+            cursor: pointer; 
+            color: red; 
+        } 
+ 
+    </style> 
+</head> 
+<body> 
+    <h1>navbar using grid</h1> 
+    <div class="navbar-grid"> 
+        <div class="navbar-items">Home</div> 
+        <div class="navbar-items">About</div> 
+        <div class="navbar-items">services</div> 
+    </div> 
+</body> 
+</html>
