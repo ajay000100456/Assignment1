@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SImple Display Properties Example</title>
+    <style>
+        .container {
+            background-color: lightgray;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .item {
+            padding: 20px;
+            margin: 5px;
+            background-color: teal;
+            color: white;
+        }
+
+        /* Display Block */
+        .block .item {
+            display: block;
+        }
+
+        /* Display Inline-block */
+        .inline-block .item {
+            display: inline-block;
+            width: 100px;
+            text-align: center;
+        }
+
+        /* Display Flex */
+        .flex {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Display Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+        }
+
+        /* Display Inline */
+        .inline .item {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>Display: Block</h2>
+    <div class="container block">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <h2>Display: Inline-block</h2>
+    <div class="container inline-block">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <h2>Display: Flex</h2>
+    <div class="container flex">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <h2>Display: Grid</h2>
+    <div class="container grid">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <h2>Display: Inline</h2>
+    <div class="container inline">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    
+</body>
+</html>
